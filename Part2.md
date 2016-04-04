@@ -1,3 +1,6 @@
+# Statistical Inference Course Project, Part 2: Basic Inferential Analysis
+
+
 In the second part of the project, we analyze the `ToothGrowth` data in the R
 datasets package. The data is set of 60 observations, length of odontoblasts
 (teeth) in each of 10 guinea pigs at each of three dose levels of Vitamin C
@@ -14,6 +17,8 @@ ggplot(data=ToothGrowth, aes(x=as.factor(dose), y=len, fill=supp)) +
     ylab("Tooth length") +
     guides(fill=guide_legend(title="Supplement type"))
 ```
+![plot of chunk unnamed-chunk-2](Plot2.1.png) 
+
 
 As can be seen above, there is a clear positive correlation between the
 tooth length and the dose levels of Vitamin C, for both delivery methods.
