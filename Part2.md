@@ -1,13 +1,3 @@
----
-title: 'Statistical Inference Course Project, Part 2: Basic Inferential Data Analysis'
-author: "Sefa Kilic"
-output:
-  html_document: default
-  pdf_document:
-    fig_height: 3
-    fig_width: 5
----
-
 In the second part of the project, we analyze the `ToothGrowth` data in the R
 datasets package. The data is set of 60 observations, length of odontoblasts
 (teeth) in each of 10 guinea pigs at each of three dose levels of Vitamin C
