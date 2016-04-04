@@ -41,7 +41,7 @@ lines(xfit, yfit, pch=22, col="red", lty=2)
 legend('topright', c("simulation", "theoretical"), lty=c(1,2), col=c("black", "red"))
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](Plot1.png) 
 
 The distribution of sample means is centered at 4.9866
 and the theoretical center of the distribution is $\lambda^{-1}$ = 5.
