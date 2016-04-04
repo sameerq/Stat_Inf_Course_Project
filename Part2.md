@@ -17,7 +17,7 @@ ggplot(data=ToothGrowth, aes(x=as.factor(dose), y=len, fill=supp)) +
     ylab("Tooth length") +
     guides(fill=guide_legend(title="Supplement type"))
 ```
-![plot of chunk unnamed-chunk-2](Plot2.1.png) 
+![plot of chunk unnamed-chunk-2](Plot2_1.png) 
 
 
 As can be seen above, there is a clear positive correlation between the
