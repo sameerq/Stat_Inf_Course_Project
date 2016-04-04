@@ -59,7 +59,7 @@ q-q plot below suggests the normality.
 qqnorm(row_means); qqline(row_means)
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](Plot2.png) 
 
 Finally, let's evaluate the coverage of the confidence interval for
 $1/\lambda = \bar{X} \pm 1.96 \frac{S}{\sqrt{n}}$
@@ -79,7 +79,7 @@ library(ggplot2)
 qplot(lambda_vals, coverage) + geom_hline(yintercept=0.95)
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](Plot3.png) 
 
 The 95% confidence intervals for the rate parameter ($\lambda$) to be estimated
 ($\hat{\lambda}$) are
